@@ -10,7 +10,7 @@ ul { height: 25px;
      display: flex;
      justify-content: space-between;
      list-style-type: none;
-     position: fixed;
+     position: absolute;
 }
  
 
@@ -19,7 +19,8 @@ ul { height: 25px;
 
 video {
     width:100vw;
-    min-height: 80vh;    
+    min-height: 80vh;   
+
 }
 
 .container-right{
@@ -30,6 +31,16 @@ img{
     height: 280px;
     width: auto;
 }
+.div-logo{
+    position: relative;
+}
+.container-text{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+
+
 
 
 
