@@ -15,15 +15,22 @@ ul { height: 25px;
  
 
 .img-logo{height: 25px;
+    display: inline-block;
 }
 
+.img-logo-ava{
+    display: inline-block;
+    float: right;
+    height: 25px;
+    
+}
 video {
     width:100vw;
     min-height: 80vh;   
 
 }
 
-.container-right{
+.container-img{
     width: 100%;
 }
 
@@ -36,9 +43,13 @@ img{
 }
 .container-text{
     position: absolute;
-    top: 300px;
+    top: 600px;
     left: 50px;
+    color: white;
+    opacity: 0.43;
 }
+
+
 
 
 
